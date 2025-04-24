@@ -1,0 +1,14 @@
+.card{
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    justify-content: center;
+}
+
+.avatar{
+    width: 100px;
+    border-radius: 50%;
+}
