@@ -1,14 +1,26 @@
-.card{
-    width: 200px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #111; 
+    margin: 0;
+}
+
+.card {
+    width: 250px; 
     padding: 20px;
     border: 1px solid #eee;
     border-radius: 10px;
     text-align: center;
     margin: 10px;
-    justify-content: center;
+    background-color: #222; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.avatar{
-    width: 100px;
-    border-radius: 50%;
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
 }
