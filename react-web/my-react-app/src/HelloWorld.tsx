@@ -1,12 +1,11 @@
 import './App.css'
-type PropsHello = {
-  name : string
-}
-export default function HelloWorld({name}: PropsHello){
+import { PropsHello } from './HelloWorldDto'
+export default function HelloWorld({name,age,gender}: PropsHello){
     return (
         <>
           <h1>Hi Folks {name}</h1>
-          <button>CLick Me!!!</button>
+          <h2>{age}</h2>
+          <h3>{gender}</h3>
         </>
       )
 }
