@@ -1,9 +1,11 @@
 import './App.css'
 
-import { UserCard } from './UserCard'
+// import { UserCard } from './UserCard'
 import HelloWorld from './HelloWorld'
 import Button from './Button'
 import { PropsHello } from './HelloWorldDto'
+import { handleClick, handleClickTrue } from './ButtonDto'
+
 
 
 function App() {
@@ -12,7 +14,12 @@ function App() {
     age:"20",
     gender:"male"
   }
-
+  const buttonProps = {
+    flag : "Hello",
+    handleClick,
+    handleClickTrue
+  }
+ 
   return (
     <>
       {/* <div>
@@ -21,7 +28,8 @@ function App() {
       </div> */}
       <h1>this is react app with vite</h1>
       <HelloWorld {...props}/>
-      <Button flag='Hellow'/>
+      <Button {...buttonProps} />
+
     </>
   )
 }

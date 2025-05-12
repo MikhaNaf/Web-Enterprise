@@ -1,8 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import ProductCard from './ProductCard.tsx'
-import { UserCard } from './UserCard.tsx'
+// import ProductCard from './ProductCard.tsx'
+// import { UserCard } from './UserCard.tsx'
 import App from './App.tsx'
 
 
